@@ -5,21 +5,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Let's Build Something!</title>
         <link rel="stylesheet" type="text/css" href="public/css/style.css">
+        <script type="text/javascript">
+            function returnYear(){
+                var today = new Date();
+                 var year = today.getFullYear();
+                 document.write(year);
+            }
+            </script>
     </head>
     <body>
          <nav>
             <ul>
-                <li><a href="#">Home | </a></li>
-                <li><a href="#">About Me |</a></li>
-                <li><a href="https://github.com/edluong">Projects |</a></li>
-                <li><a href="#">Blog </a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="https://github.com/edluong">Projects</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <h1>Hello! I'm Ed.</h1>
         <div>
 
         </div>
-        <h2>Come check out my <a href="https://github.com/edluong"><img src="public/img/github.png" height=32px and width=32px/></a> to see what I'm building!</h2>
+        <h2>Come check out my <a href="https://github.com/edluong"><img src="public/img/github.png" height=52px and width=52px/></a> to see what I'm building!</h2>
+        
+        <footer class="footer">
+            <!--social media-->
+            Ed Luong © <script type="text/javascript">returnYear();</script>
+        </footer>
     </body>
-    <footer></footer>
 </html>
